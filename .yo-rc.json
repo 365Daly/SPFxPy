@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "sp-fx-pi",
+    "libraryId": "9b3bd211-261e-4ade-84c2-828b8463d963",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-fx-pi",
+    "solutionShortDescription": "sp-fx-pi description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

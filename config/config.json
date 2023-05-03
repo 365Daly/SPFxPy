@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chat-with-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chatWithData/ChatWithDataWebPart.js",
+          "manifest": "./src/webparts/chatWithData/ChatWithDataWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChatWithDataWebPartStrings": "lib/webparts/chatWithData/loc/{locale}.js"
+  }
+}
